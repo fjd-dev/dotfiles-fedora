@@ -1,14 +1,60 @@
 // Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Bearded Icon Theme",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  },
+  "ui_font_size": 16,
+  "scrollbar": {
+    "show": "never"
+  },
+  "ui_font_family": "Monaspace Krypton",
+  "buffer_font_size": 15,
+  "tab_bar": {
+    "show": false
+  },
+  "buffer_font_family": "Monaspace Neon",
+  "ensure_final_newline_on_save": true,
+  "current_line_highlight": "gutter",
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "bottom_dock_layout": "contained",
+  "selection_highlight": false,
+  "restore_on_startup": "none",
+  "confirm_quit": false,
+  "tab_size": 2,
+  "preferred_line_length": 80,
+  "auto_update": true,
+  "inline_code_actions": true,
+  "centered_layout": {
+    "left_padding": 0.5,
+    "right_padding": 0.5
+  },
+  "cursor_shape": "underline",
+  "cursor_blink": true,
+  "formatter": "language_server",
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "fixed"
+  },
+  "file_scan_inclusions": [
+    ".env*"
+  ],
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "gutter_debounce": null,
+    "inline_blame": {
+      "enabled": false
+    },
+    "hunk_style": "unstaged_hollow"
   },
   "edit_predictions": {
     "mode": "subtle",
@@ -23,7 +69,25 @@
     "edit_prediction_provider": "zed"
   },
   "terminal": {
-    "dock": "left"
+    "dock": "left",
+    "copy_on_select": true,
+    "font_family": "Monaspace Krypton",
+    "line_height": "standard",
+    "font_weight": 200,
+    "cursor_shape": "underline",
+    "blinking": "on",
+    "shell": {
+      "with_arguments": {
+        "program": "zsh",
+        "args": [
+          "--login"
+        ]
+      }
+    },
+    "default_width": 450,
+    "toolbar": {
+      "breadcrumbs": false
+    }
   },
   "agent": {
     "dock": "left"
@@ -32,14 +96,16 @@
     "dock": "left"
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
+    "scrollbar": {
+      "show": "never"
+    }
   },
-  "icon_theme": "Bearded Icon Theme",
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Tokyo Night"
+  "collaboration_panel": {
+    "button": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
