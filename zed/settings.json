@@ -1,5 +1,6 @@
 // Zed settings
 {
+  "show_edit_predictions": false,
   "icon_theme": "Bearded Icon Theme",
   "theme": {
     "mode": "system",
@@ -43,7 +44,7 @@
     ".env*"
   ],
   "git_panel": {
-    "dock": "right",
+    "dock": "left",
     "scrollbar": {
       "show": "never"
     }
