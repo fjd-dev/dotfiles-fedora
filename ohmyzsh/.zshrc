@@ -1,5 +1,5 @@
 # Add deno completions to search path
-if [[ ":$FPATH:" != *":/home/fjd/.zsh/completions:"* ]]; then export FPATH="/home/fjd/.zsh/completions:$FPATH"; fi
+if [[ ":$FPATH:" != *":/home/fd/.zsh/completions:"* ]]; then export FPATH="/home/fd/.zsh/completions:$FPATH"; fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
