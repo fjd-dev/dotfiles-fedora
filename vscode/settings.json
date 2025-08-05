@@ -6,7 +6,6 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "single",
-  "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.colorTheme": "Tokyo Night",
   "workbench.tree.indent": 20,
@@ -74,6 +73,8 @@
   "terminal.integrated.cursorStyleInactive": "underline",
   // DEBUG CONSOLE
   "debug.console.fontFamily": "Monaspace Neon, monospace",
+  // GLASSIT
+  "glassit.alpha": 247,
   // DENO
   "deno.enable": true,
   // TELEMETRY
