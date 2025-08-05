@@ -1,5 +1,6 @@
 // Zed settings
 {
+  "base_keymap": "VSCode",
   "show_edit_predictions": false,
   "icon_theme": "Bearded Icon Theme",
   "theme": {
