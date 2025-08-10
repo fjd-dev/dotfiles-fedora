@@ -29,14 +29,15 @@
   "editor.occurrencesHighlight": "off",
   "editor.defaultFormatter": "denoland.vscode-deno",
   "editor.lineHeight": 1.7,
-  "editor.fontSize": 14.5,
+  "editor.fontSize": 15,
+  "editor.fontVariations": "'wght' 300",
+  "editor.fontWeight": "300",
   "editor.fontFamily": "'Monaspace Krypton', monospace",
   "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
   "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'cv01' 2, 'cv31' 1",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.matchBrackets": "near",
-  "editor.fontVariations": "'wght' 350",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -64,9 +65,9 @@
   "zenMode.silentNotifications": true,
   // TERMINAL
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.fontFamily": "Monaspace Krypton",
-  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontWeight": 300,
   "terminal.integrated.fontWeightBold": 600,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
@@ -83,6 +84,13 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
+  // CoPilot
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
   // FILES
   "files.autoSave": "onFocusChange",
   //FORMATTERS
@@ -94,11 +102,5 @@
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
   }
 }
