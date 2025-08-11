@@ -6,7 +6,7 @@
   "theme": {
     "mode": "system",
     "light": "Github Dark",
-    "dark": "Tokyo Night"
+    "dark": "Github Dark Tritanopia"
   },
   "ui_font_size": 16,
   "scrollbar": {
@@ -125,7 +125,7 @@
     "ghost_element.hover": "#00000099",
     "background.appearance": "transparent",
     "background": "#000000CC",
-    "editor.background": "#00000010",
+    "editor.background": "#00000000",
     "editor.gutter.background": "#000000DF",
     "title_bar.background": "#000000DF",
     "toolbar.background": "#00000000",
