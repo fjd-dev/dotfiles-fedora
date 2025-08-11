@@ -17,8 +17,24 @@ source $ZSH/oh-my-zsh.sh
 # HOMEBREW
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# KUDA
+# export CUDA_HOME=/usr/local/cuda-13.0
+# export PATH="$CUDA_HOME/bin:$PATH"
+# export LD_LIBRARY_PATH="$CUDA_HOME/lib64:$LD_LIBRARY_PATH"
+# export CUDAHOSTCXX=/usr/bin/g++-14
+# export CC=/usr/bin/gcc-14
+# export CXX=/usr/bin/g++-14
+# export CUDA_TOOLKIT_ROOT_DIR="$CUDA_HOME"
+# export CUDACXX="$CUDA_HOME/bin/nvcc"
+
 # GO
 export PATH=$PATH:/usr/local/go/bin
+
+# PYENV
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -30,11 +46,6 @@ export NVM_DIR="$HOME/.nvm"
 # Initialize zsh completions (added by deno install script)
 autoload -Uz compinit
 compinit
-
-# PYENV
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - bash)"
 
 # STARSHIP PROMPT
 eval "$(starship init zsh)"
