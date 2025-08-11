@@ -25,15 +25,15 @@
   "format_on_save": "on",
   "bottom_dock_layout": "contained",
   "selection_highlight": false,
-  "restore_on_startup": "none",
+  "restore_on_startup": "last_session",
   "confirm_quit": false,
   "tab_size": 2,
   "preferred_line_length": 80,
   "auto_update": true,
   "inline_code_actions": true,
   "centered_layout": {
-    "left_padding": 0.02,
-    "right_padding": 0.02
+    "left_padding": 0.03,
+    "right_padding": 0.03
   },
   "cursor_shape": "underline",
   "cursor_blink": true,
@@ -126,7 +126,7 @@
     "background.appearance": "transparent",
     "background": "#000000CC",
     "editor.background": "#00000000",
-    "editor.gutter.background": "#000000DF",
+    "editor.gutter.background": "#00000090",
     "title_bar.background": "#000000DF",
     "toolbar.background": "#00000000",
     "terminal.background": "#00000000",
