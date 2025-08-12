@@ -5,8 +5,8 @@
   "icon_theme": "Bearded Icon Theme",
   "theme": {
     "mode": "system",
-    "light": "Github Dark Tritanopia",
-    "dark": "Github Dark Tritanopia"
+    "light": "Github Dark",
+    "dark": "Github Dark"
   },
   "ui_font_size": 16,
   "scrollbar": {
@@ -123,8 +123,8 @@
     "search.match_background": "#FFFFFF20",
     "ghost_element.background": "#00000010",
     "ghost_element.hover": "#00000099",
-    "background.appearance": "transparent",
-    "background": "#000000CC",
+    "background.appearance": "blurred",
+    "background": "#000000De",
     "editor.background": "#00000000",
     "editor.gutter.background": "#00000090",
     "title_bar.background": "#000000DF",
